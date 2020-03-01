@@ -1,0 +1,66 @@
+.navigation .navbar-brand{
+	color: white; 
+	margin-left: 50px; 
+	padding: 15px; 
+	font-weight: bold; 
+	background-color: lightseagreen;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.card-title {
+	padding-top: 15px; 
+	padding-left: 4px;
+	color: lightseagreen;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+h2{
+	padding-top: 15px; 
+	padding-left: 4px;
+	color: lightseagreen;
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+.card-text {
+    font-size: 18px;
+    font-family: Calibri, sans-serif
+}
+
+.container-fluid{
+    padding: 50px;
+    margin-top: 50px;
+}
+
+table{
+  width: 90%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+td {
+    text-align: center;
+  }
+
+  body {
+    background-color:#ececec
+}
+
+/* media queries */
+@media (max-width: 990px){
+  .navbar-expand-lg{
+    background-color: lightseagreen;
+    }  
+  
+  .navbar{
+        max-height: none; 
+        padding: inherit;
+    }
+    button{
+        margin-left: auto; 
+    }
+    } 
