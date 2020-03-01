@@ -53,7 +53,7 @@ td {
 /* media queries */
 @media (max-width: 990px){
   .navbar-expand-lg{
-    background-color: lightseagreen;
+    background-color: lightseagreen !important;
     }  
   
   .navbar{
